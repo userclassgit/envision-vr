@@ -5,6 +5,8 @@ const HeaderTop = () => {
   const navBarRef = useRef(null);
   const highlightRef = useRef(null);
   const homeLinkRef = useRef(null);
+  const navBarPaddingLeft = 20;
+
 
   const handleClick = (event) => {
     event.preventDefault();
@@ -14,10 +16,10 @@ const HeaderTop = () => {
     const navRect = navBarRef.current.getBoundingClientRect();
 
     // Set the purple highlight's width and height here
-    highlightRef.current.style.width = `${linkRect.width}px`;
-    highlightRef.current.style.height = `${linkRect.height}px`;
+    highlightRef.current.style.width = `${linkRect.width + 5}px`;
+    highlightRef.current.style.height = `${linkRect.height + 5}px`;
     // Set the purple highlight's horizontal position here.
-    highlightRef.current.style.transform = `translateX(${linkRect.left - navRect.left - (linkRect.width / 2)}px)`;
+    highlightRef.current.style.transform = `translateX(${linkRect.left - navRect.left - navBarPaddingLeft + (linkRect.width / 2) - (highlightRef.current.offsetWidth / 2)}px)`;
   };
 
   // useEffect is for when the page first loads. this positions the purple
@@ -26,9 +28,9 @@ const HeaderTop = () => {
     const linkRect = homeLinkRef.current.getBoundingClientRect();
     const navRect = navBarRef.current.getBoundingClientRect();
 
-    highlightRef.current.style.width = `${linkRect.width}px`;
-    highlightRef.current.style.height = `${linkRect.height}px`;
-    highlightRef.current.style.transform = `translateX(${linkRect.left - navRect.left - (linkRect.width / 2)}px)`;
+    highlightRef.current.style.width = `${linkRect.width + 5}px`;
+    highlightRef.current.style.height = `${linkRect.height + 5}px`;
+    highlightRef.current.style.transform = `translateX(${linkRect.left - navRect.left - navBarPaddingLeft + (linkRect.width / 2) - (highlightRef.current.offsetWidth / 2)}px)`;
   }, []);
 
   return (
