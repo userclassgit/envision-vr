@@ -10,6 +10,11 @@ const App = () => {
   return (
     <>
       <Header />
+      <section className="headset-section">
+        <h1>Our latest headsets</h1>
+        <p>These EnvisionVR headsets, built with cutting-edge technology, deliver an immersive experience like no other.</p>
+        {/* insert gallery */}
+      </section>
     </>
   );
 }
