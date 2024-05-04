@@ -7,7 +7,8 @@ const HeaderTop = () => {
   const homeLinkRef = useRef(null);
   const navBarPaddingLeft = 20;
 
-  // This sliding background for the nav links was inspired by an iOS app tutorial https://youtu.be/bO7VTH5Q9hQ?t=6
+  // This sliding background for the nav links was inspired by an iOS app 
+  // tutorial https://youtu.be/bO7VTH5Q9hQ?t=6
   const handleClick = (event) => {
     event.preventDefault();
     // The size and position of the clicked <a> element
@@ -19,7 +20,9 @@ const HeaderTop = () => {
     highlightRef.current.style.width = `${linkRect.width + 5}px`;
     highlightRef.current.style.height = `${linkRect.height + 5}px`;
     // Set the purple highlight's horizontal position here.
-    highlightRef.current.style.transform = `translateX(${linkRect.left - navRect.left - navBarPaddingLeft + (linkRect.width / 2) - (highlightRef.current.offsetWidth / 2)}px)`;
+    highlightRef.current.style.transform = `translateX(${linkRect.left 
+    - navRect.left - navBarPaddingLeft + (linkRect.width / 2) - 
+    (highlightRef.current.offsetWidth / 2)}px)`;
   };
 
   // useEffect is for when the page first loads. this positions the purple
@@ -30,7 +33,9 @@ const HeaderTop = () => {
 
     highlightRef.current.style.width = `${linkRect.width + 5}px`;
     highlightRef.current.style.height = `${linkRect.height + 5}px`;
-    highlightRef.current.style.transform = `translateX(${linkRect.left - navRect.left - navBarPaddingLeft + (linkRect.width / 2) - (highlightRef.current.offsetWidth / 2)}px)`;
+    highlightRef.current.style.transform = `translateX(${linkRect.left - 
+    navRect.left - navBarPaddingLeft + (linkRect.width / 2) - 
+    (highlightRef.current.offsetWidth / 2)}px)`;
   }, []);
 
   return (

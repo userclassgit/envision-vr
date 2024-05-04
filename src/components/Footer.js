@@ -1,4 +1,3 @@
-import React from 'react';
 import facebookIcon from '../media/social-facebook.png';
 import instagramIcon from '../media/social-instagram.png';
 import youtubeIcon from '../media/social-youtube.png';

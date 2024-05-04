@@ -15,7 +15,8 @@ const App = () => {
       <section className="headset-section">
         <div className="container">
           <h1>Our latest headsets</h1>
-          <p>These EnvisionVR headsets, built with cutting-edge technology, deliver an immersive experience like no other.</p>
+          <p>These EnvisionVR headsets, built with cutting-edge technology, 
+            deliver an immersive experience like no other.</p>
           <Gallery />
         </div>
       </section>

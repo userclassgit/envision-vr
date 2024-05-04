@@ -1,4 +1,3 @@
-import React from 'react';
 import headset1 from '../media/headset-1.jpeg';
 import headset2 from '../media/headset-2.jpeg';
 import headset3 from '../media/headset-3.jpeg';
