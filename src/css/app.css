@@ -165,7 +165,7 @@ Button {
   cursor: pointer;
 }
 
-/* headset section */
+/* ============Headset section============ */
 .headset-section {
   padding: var(--section-spacing) 0;
   display: flex;
@@ -176,6 +176,7 @@ Button {
     flex-direction: column;
     align-items: center;
     h1 {
+      line-height: 1;
       font-size: 2.9rem;
       background: linear-gradient(to right, var(--purple), var(--teal));
       -webkit-background-clip: text;
@@ -199,5 +200,31 @@ Button {
   margin-top: 3rem;
   img {
     border-radius: 20px;
+  }
+}
+
+/* ============Footer============ */
+footer {
+  height: 5rem;
+  width: 100%;
+  background-color: var(--dark-gray);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15rem;
+    img {
+      width: 40px;
+    }
+  }
+  span {
+    color: var(--white);
+    font-size: 1.3rem;
   }
 }
