@@ -202,11 +202,14 @@ Button {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   margin-top: 4.4rem;
   img {
     border-radius: 20px;
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
   }
 }
 
