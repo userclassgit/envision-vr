@@ -122,6 +122,12 @@ header video {
   background-color: transparent;
   border: 1px solid var(--white);
   padding: .3rem .8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.sign-in-btn:hover {
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .header-text {
@@ -197,7 +203,7 @@ Button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 4.4rem;
   img {
     border-radius: 20px;
   }
@@ -220,7 +226,7 @@ footer {
     align-items: center;
     width: 15rem;
     img {
-      width: 40px;
+      width: 35px;
     }
   }
   span {
