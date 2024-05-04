@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/envision-vr/static/css/main.adbc1652.css",
+    "main.css": "/envision-vr/static/css/main.29ec44b5.css",
     "main.js": "/envision-vr/static/js/main.914f7463.js",
     "static/media/hero-vid.mp4": "/envision-vr/static/media/hero-vid.1ec9447fb114876518b8.mp4",
     "static/media/headset-2.jpeg": "/envision-vr/static/media/headset-2.0e44ca430876d12234a6.jpeg",
@@ -9,11 +9,11 @@
     "static/media/headset-1.jpeg": "/envision-vr/static/media/headset-1.b86eb87523d35076cb24.jpeg",
     "static/media/logo.png": "/envision-vr/static/media/logo.97c2e207ad73f17fd236.png",
     "index.html": "/envision-vr/index.html",
-    "main.adbc1652.css.map": "/envision-vr/static/css/main.adbc1652.css.map",
+    "main.29ec44b5.css.map": "/envision-vr/static/css/main.29ec44b5.css.map",
     "main.914f7463.js.map": "/envision-vr/static/js/main.914f7463.js.map"
   },
   "entrypoints": [
-    "static/css/main.adbc1652.css",
+    "static/css/main.29ec44b5.css",
     "static/js/main.914f7463.js"
   ]
 }
