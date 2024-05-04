@@ -1,5 +1,6 @@
 import './css/app.css';
 import Header from './components/Header';
+import Gallery from './components/Gallery';
 
 /* 
 I prefer assigning the component arrow function to a const like this instead of writing a named function.
@@ -11,9 +12,11 @@ const App = () => {
     <>
       <Header />
       <section className="headset-section">
-        <h1>Our latest headsets</h1>
-        <p>These EnvisionVR headsets, built with cutting-edge technology, deliver an immersive experience like no other.</p>
-        {/* insert gallery */}
+        <div className="container">
+          <h1>Our latest headsets</h1>
+          <p>These EnvisionVR headsets, built with cutting-edge technology, deliver an immersive experience like no other.</p>
+          <Gallery />
+        </div>
       </section>
     </>
   );
