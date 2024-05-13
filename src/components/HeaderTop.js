@@ -7,8 +7,6 @@ const HeaderTop = () => {
   const homeLinkRef = useRef(null);
   const navBarPaddingLeft = 20;
 
-  // This sliding background for the nav links was inspired by an iOS app 
-  // tutorial https://youtu.be/bO7VTH5Q9hQ?t=6
   const handleClick = (event) => {
     event.preventDefault();
     // The size and position of the clicked <a> element

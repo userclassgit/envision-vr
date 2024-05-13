@@ -3,11 +3,6 @@ import Header from './components/Header';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 
-/* 
-I prefer assigning the component arrow function to a const like this instead of writing a named function.
-https://youtu.be/ABQLwlE8MUA?t=4507
-Hope this is ok.
-*/
 const App = () => {
   return (
     <>
